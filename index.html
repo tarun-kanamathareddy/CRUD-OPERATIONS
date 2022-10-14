@@ -1,0 +1,45 @@
+l̥ō<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>book data</h1>
+
+    <div class="container" id="book-crud-container">
+      <div class="title text-center">
+        <h1>
+          <strong data-id="title">Not defined</strong>
+        </h1>
+      </div>
+      <div class="main row">
+        <div class="col-sm-12 col-md-4">
+          <form data-id="crud-form" autocomplete="off"></form>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <table class="table table-striped mt-5">
+            <thead data-id="table-header"></thead>
+            <tbody data-id="table-list"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="aps.js"></script>
+  </body>
+</html>
